@@ -1,10 +1,10 @@
 {
-  "animations.css": "animations.c1fe16891852852b6db8.css",
-  "app.css": "app.04ef37a98c3a6f488a73.css",
-  "typography.css": "typography.5d798833a07dd150efa8.css",
-  "fonts.css": "fonts.64053e5a2ec1dd65399b.css",
-  "light.css": "light.650edf5b41e87cf7197f.css",
-  "dark.css": "dark.e764f9d800a4eb685c67.css",
+  "animations.css": "animations.3b729edcb8dbd7149899.css",
+  "app.css": "app.b12943b6a0bc8995653b.css",
+  "typography.css": "typography.bd0fb61655e9d60eb1d2.css",
+  "fonts.css": "fonts.5093134602b54c85db4d.css",
+  "light.css": "light.059fd48e368af29528d5.css",
+  "dark.css": "dark.6eb133f3be70c47e624b.css",
   "vue2-daterange-picker.css": "vue2-daterange-picker.fe9e4f57ad74c98c9324.css",
   "grid.css": "grid.02de9031306c45f5b9f2.css"
 }

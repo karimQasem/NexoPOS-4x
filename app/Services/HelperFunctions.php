@@ -226,23 +226,15 @@ function __m( $key, $namespace = 'default' )
  */
 function loadcss( $path )
 {
-    if ( in_array( strtolower( env( 'NS_ENV' ) ), [ 'prod', 'production' ]) ) {
         $files = json_decode( file_get_contents( base_path( 'public/css-manifest.json' ) ), true );
-
+        
         if ( isset( $files[ $path ] ) ) {
             return asset( 'css/' . $files[ $path ] );
         }
-
         throw new NotFoundException( sprintf(
             __( 'Unable to find the requested asset file "%s".'),
             asset( 'css/' . $path )
         ) );
-    } else {
-        return asset( 'css/' . $path );
-
-        throw new NotFoundException( sprintf(
-            __( 'Unable to find the requested asset file "%s".'),
-            asset( 'css/' . $path )
-        ) );
-    }
+    
+    
 }
